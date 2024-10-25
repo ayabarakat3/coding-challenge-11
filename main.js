@@ -17,7 +17,7 @@ const quantity = parseInt(quantityInput.value);
 // Code to find the total amount per quantity is now complete.
 if (quantity < 1){
 totalPriceElement.textContent = "0.00";
-errorMessage.textContent = "Error! A number greater than 0 is required to display options.";
+errorMessage.textContent = "Error! A number greater than 0 is required to display total.";
 return;}
 else {
 errorMessage.textContent = "";}
@@ -45,3 +45,4 @@ const totalPrice = totalPriceElement.textContent;
 // Code set to show how order submissions are handled along with display message when necessary.
 orderSummary.textContent = `Your order of ${quantity} ${selectedProduct} totals to $${totalPrice}`;});
 // Message set to reveal quantity and total price of item(s) ordered.
+// Code is now complete and tested.
