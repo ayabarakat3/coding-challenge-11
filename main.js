@@ -16,7 +16,7 @@ const quantity = parseInt(quantityInput.value);
 // This code is meant to calculate product prices when quantities differ. 
 // Code to find the total amount per quantity is now complete.
 if (quantity < 1){
-totalPriceElement.textContent = "0.000";
+totalPriceElement.textContent = "0.00";
 errorMessage.textContent = "Error! A number greater than 0 is required to display options.";
 return;}
 else {
@@ -43,5 +43,5 @@ return;}
 // Code set to reveal error message if search does not fit requirements. 
 const totalPrice = totalPriceElement.textContent;
 // Code set to show how order submissions are handled along with display message when necessary.
-orderSummary.textContent = `Your order of ${quantity} ${selectedProduct}'s totals to $${totalPrice}`;});
+orderSummary.textContent = `Your order of ${quantity}'s ${selectedProduct} totals to $${totalPrice}`;});
 // Message set to reveal quantity and total price of item(s) ordered.
