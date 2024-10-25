@@ -43,5 +43,5 @@ return;}
 // Code set to reveal error message if search does not fit requirements. 
 const totalPrice = totalPriceElement.textContent;
 // Code set to show how order submissions are handled along with display message when necessary.
-orderSummary.textContent = `Your order of ${quantity} ${selectedProduct}s totals to $${totalPrice}`;});
+orderSummary.textContent = `Your order of ${quantity} ${selectedProduct} totals to $${totalPrice}`;});
 // Message set to reveal quantity and total price of item(s) ordered.
