@@ -30,5 +30,4 @@ const selectedProduct = productSelector.options[productSelector.selectedIndex].t
 const quantity = quantityInput.value;
 const totalPrice = totalPriceElement.textContent;
 // Code set to show how order submissions are handled but display message not yetset.
-orderSummary.textContent = `You ordered ${quantity} of ${selectedProduct}. Total price: $${totalPrice}`;
-});
+orderSummary.textContent = `Your order of ${quantity} ${selectedProduct}'s totals to $${totalPrice}`;});
