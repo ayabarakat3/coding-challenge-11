@@ -13,6 +13,6 @@ const quantity = parseInt(quantityInput.value);
 const totalPrice = productPrice * quantity;
 // This code is meant to calculate product prices when quantities differ. 
 // Code to find the total amount per quantity is now complete.
-totalPriceElement.textContent = totalPrice.toFixed(3);}
+totalPriceElement.textContent = totalPrice.toFixed(3);} 
 // This code is set to display the total price to 3 decimal places.
 // Code to find the price and display the amount is now complete. 
